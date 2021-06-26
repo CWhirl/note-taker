@@ -3,11 +3,11 @@ const app = express();
 const apiRoutes = require("./Develop/routes/noteRoutes")
 const htmlRoutes = require("./Develop/routes/html-routes")
 
-const PORT = 3001;
+const PORT = process.env.PORT || 3001;
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(express.static("public"));
+app.use(express.static("Develop/public"));
 app.use("/api", apiRoutes)
 app.use("/", htmlRoutes)
 
