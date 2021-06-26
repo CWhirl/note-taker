@@ -22,5 +22,7 @@ Project Title: Note Taker
         License: https://opensource.org/licenses/MIT
         
 
+![Example Screenshot](assets\note-taker-example.png)
+
         
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
