@@ -1,5 +1,3 @@
-console.log("JS is actually linked!");
-
 let noteTitle;
 let noteText;
 let saveNoteBtn;

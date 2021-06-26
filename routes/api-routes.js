@@ -1,5 +1,4 @@
 const router = require('express').Router();
-const path = require('path');
 let noteData = require('../db/db.json')
 const { v4: uuidv4 } = require('uuid');
 const fs = require('fs');
